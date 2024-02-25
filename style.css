@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+.container{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 1%;
+    width: 440px;
+    height: 590px;
+    background-image: url(tiger2.jpg);
+}
+.container h1{
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size:50px;
+}
+input{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 320px;
+    height: 47px;
+    background-color:aliceblue;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+}
+input::placeholder{
+    font-size: 17px;
+    margin-left:15px ;
+    padding: 12px;
+}
